@@ -18,7 +18,8 @@ public class StudentEntity {
 public StudentEntity(Long Id,String name,String email,float cgpa)
 this.Id=Id;
 this.name=name;
-this
+this.email=email;
+this.cgpa=cgpa;
 
 public void setName(stringname){
     this.name=name;
